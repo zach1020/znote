@@ -8,7 +8,7 @@ A vaporwave-themed rich text editor built with Tauri 2, CodeMirror 6, and Rust.
 
 ---
 
-![ZNOTE Screenshot](assets/screenshot.png)
+![ZNOTE Screenshot](screenshot.png)
 
 ---
 
