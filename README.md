@@ -8,6 +8,10 @@ A vaporwave-themed rich text editor built with Tauri 2, CodeMirror 6, and Rust.
 
 ---
 
+![ZNOTE Screenshot](assets/screenshot.png)
+
+---
+
 ## What is ZNOTE?
 
 ZNOTE is a lightweight desktop markdown editor with a neon-soaked vaporwave aesthetic. Write, edit, and export markdown files — all wrapped in a cyberpunk UI with deep blacks, neon pinks, and electric cyans.
