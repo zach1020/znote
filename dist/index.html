@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ZNOTE</title>
+    <script type="module" crossorigin src="/assets/index-NG-fswZF.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-kQQhTJYJ.css">
+  </head>
+  <body>
+    <!-- Accent gradient line at top -->
+    <div id="accent-line"></div>
+
+    <!-- Title Bar -->
+    <div id="titlebar">
+      <div id="titlebar-left">
+        <div id="logo">
+          <span id="logo-icon">//</span>
+          <span id="logo-text">ZNOTE</span>
+        </div>
+        <div id="tabs">
+          <div class="tab active" data-path="">
+            <span class="tab-icon">📄</span>
+            <span class="tab-name">untitled.md</span>
+            <span class="tab-close">&times;</span>
+          </div>
+        </div>
+      </div>
+      <div id="titlebar-right">
+        <div class="window-dot" style="background:#FF5F57"></div>
+        <div class="window-dot" style="background:#FEBC2E"></div>
+        <div class="window-dot" style="background:#28C840"></div>
+      </div>
+    </div>
+
+    <!-- Toolbar -->
+    <div id="toolbar">
+      <div id="format-pills">
+        <button class="pill active" data-format="md">.md</button>
+        <button class="pill" data-format="docx">.docx</button>
+        <button class="pill" data-format="txt">.txt</button>
+        <button class="pill" data-format="pdf">.pdf</button>
+      </div>
+      <div class="toolbar-sep"></div>
+      <div id="format-buttons">
+        <button class="tool-btn" data-action="bold" title="Bold (Cmd+B)"><b>B</b></button>
+        <button class="tool-btn" data-action="italic" title="Italic (Cmd+I)"><i>I</i></button>
+        <button class="tool-btn" data-action="underline" title="Underline"><u>U</u></button>
+        <button class="tool-btn" data-action="strikethrough" title="Strikethrough"><s>S</s></button>
+        <button class="tool-btn code-btn" data-action="code" title="Code">&lt;/&gt;</button>
+      </div>
+      <div class="toolbar-sep"></div>
+      <div id="heading-buttons">
+        <button class="tool-btn heading-btn" data-action="h1" title="Heading 1">H1</button>
+        <button class="tool-btn" data-action="h2" title="Heading 2">H2</button>
+        <button class="tool-btn" data-action="h3" title="Heading 3">H3</button>
+      </div>
+      <div class="toolbar-sep"></div>
+      <div id="list-buttons">
+        <button class="tool-btn icon-btn" data-action="ul" title="Bullet List">•</button>
+        <button class="tool-btn icon-btn" data-action="ol" title="Numbered List">1.</button>
+        <button class="tool-btn icon-btn" data-action="checklist" title="Checklist">☑</button>
+      </div>
+      <div class="toolbar-sep"></div>
+      <div id="util-buttons">
+        <button class="tool-btn icon-btn" data-action="link" title="Link">🔗</button>
+        <button class="tool-btn icon-btn" data-action="image" title="Image">🖼</button>
+        <button class="tool-btn icon-btn" data-action="table" title="Table">▦</button>
+        <button class="tool-btn icon-btn" data-action="quote" title="Blockquote">❝</button>
+      </div>
+      <div id="toolbar-spacer"></div>
+      <div id="undo-redo">
+        <button class="tool-btn icon-btn" data-action="undo" title="Undo">↩</button>
+        <button class="tool-btn icon-btn" data-action="redo" title="Redo">↪</button>
+      </div>
+    </div>
+
+    <!-- Content Area -->
+    <div id="content-area">
+      <!-- Sidebar -->
+      <div id="sidebar">
+        <div id="side-header">
+          <span id="side-title">EXPLORER</span>
+          <button id="btn-new-file" title="New File">+</button>
+        </div>
+        <div id="side-search">
+          <span class="search-icon">🔍</span>
+          <input type="text" id="search-input" placeholder="Search files..." />
+        </div>
+        <div id="file-tree"></div>
+      </div>
+
+      <!-- Editor -->
+      <div id="editor-pane">
+        <div id="editor-container"></div>
+      </div>
+    </div>
+
+    <!-- Status Bar -->
+    <div id="statusbar">
+      <div id="status-left">
+        <span id="st-line">Ln 1, Col 1</span>
+        <span id="st-words">0 words</span>
+        <span id="st-chars">0 chars</span>
+      </div>
+      <div id="status-right">
+        <span id="st-encoding">UTF-8</span>
+        <span id="st-format" class="format-badge">Markdown</span>
+        <span id="st-saved">
+          <span class="save-dot saved"></span>
+          Saved
+        </span>
+      </div>
+    </div>
+
+  </body>
+</html>
